@@ -2,12 +2,14 @@ import { Box } from '@mui/material'
 import React from 'react';
 import { Navbar } from '../../components/navbar/navbar';
 import { Cart } from '../../components/cart/cart';
-
+import { Footer } from '../../components/footer/footer';
+import './CartDetails.css';
 export const CartDetails = () => {
   return (
-    <Box>
+    <div className="cartContainer">
     <Navbar />
     <Cart />
-  </Box>
+    <Footer/>
+    </div>
   )
 }

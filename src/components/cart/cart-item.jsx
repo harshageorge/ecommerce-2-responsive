@@ -11,15 +11,13 @@ export const CartItem = (props) => {
 
   return (
     <div className="items-info">
-      <div className="cartImage">
-        <img src={productImage} />
-      </div>
-
-      <div className="productTitle">
+    <img src={productImage} />
+    <div className="productTitle">
         <b>{productName}</b>
       </div>
+      <div className="price">£{price}</div>
       <div className="description">
-        <div className="price">£{price}</div>
+       
         <div className="countHandler">
           <CounterButton
             className="counterButton"

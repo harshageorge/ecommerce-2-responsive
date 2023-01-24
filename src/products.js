@@ -6,6 +6,9 @@ import product5 from "./assets/products/5.png";
 import product6 from "./assets/products/6.webp";
 import product7 from "./assets/products/7.webp";
 import product8 from "./assets/products/8.webp";
+import product9 from "./assets/products/9.jpeg";
+import product10 from "./assets/products/10.jpeg";
+import product11 from "./assets/products/11.jpeg";
 
 export const PRODUCTS = [
   {
@@ -55,5 +58,23 @@ export const PRODUCTS = [
     productName: "DON'T TRIP UNSTRUCTURED HAT",
     price: 40.0,
     productImage: product8,
+  },
+  {
+    id: 9,
+    productName: "WOOL FELT TOP HAT",
+    price: 50.0,
+    productImage: product9,
+  },
+  {
+    id: 10,
+    productName: "MASSIMO DUTTI",
+    price: 60.0,
+    productImage: product10,
+  },
+  {
+    id: 11,
+    productName: "FEDORA HAT",
+    price: 50.0,
+    productImage: product11,
   },
 ];

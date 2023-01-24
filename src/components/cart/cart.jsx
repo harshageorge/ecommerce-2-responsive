@@ -16,10 +16,10 @@ export const Cart = () => {
   {totalAmount>0?(
     <Box
       sx={{
-        // width: "90%",
+        width: "85%",
         maxHeight: "26rem",
         boxShadow: "0px 3px 15px rgba(0, 0, 0, 0.2)",
-        margin: "20px 20px auto",
+        margin: "30px auto",
         overflowY: "scroll",
         borderRadius: "10px",
         padding:'15px',
@@ -44,7 +44,7 @@ export const Cart = () => {
     
    
          {totalAmount > 0 ? (
-          <Box sx={{ width: "90%", height: "6rem",display:'flex',flexDirection:'row',alignItems:'center',justifyContent:'space-evenly'}}>
+          <Box sx={{ width: "100%", height: "6rem",display:'flex',flexDirection:'row',alignItems:'center',justifyContent:'space-evenly'}}>
               
          <p><b>Subtotal: £{getTotalCartAmount()}</b></p>
          <button  className="checkout" onClick={() => navigate("/")} >Continue Shopping</button>
