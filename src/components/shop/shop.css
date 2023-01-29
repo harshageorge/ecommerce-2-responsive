@@ -4,23 +4,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:'100%';
   gap: 1rem;
    border: .5px  rgb(19, 19, 19);
    border-radius: 5px;
    padding: 5px;
+  
+ 
 }
 .product:hover {
  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .product img {
   max-height: 8rem;
+
 }
 
 .product .description {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .product:hover {
@@ -47,13 +50,14 @@
 .countHandler{
   display: flex;
   flex-wrap: wrap;
+ 
   /* gap:1rem; */
 }
 .counterButton{
   background-color: red;
   border-radius: 5px;
  }
-.counterInput{
-  /* width:90px; */
-
+.title{
+  word-break: break-all;
+  padding: 5px;
 }

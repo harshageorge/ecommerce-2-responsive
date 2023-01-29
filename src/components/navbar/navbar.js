@@ -13,6 +13,7 @@ export const Navbar = () => {
     backgroundColor: "#291715",
     display: "flex",
     justifyContent: "space-between",
+    height:'65px',
   });
   const StyledButton = styled(Button)({
     color: "white",
@@ -23,7 +24,7 @@ export const Navbar = () => {
     <AppBar position="static">
       <StyledToolbar>
         <StyledButton onClick={() => navigate("/")}>
-        <StoreIcon sx={{ display: { xs: "block" } }} />
+        <StoreIcon sx={{ display: { xs: "block" } }} style={{ fontSize: 35 }} />
           <Typography
             variant="h6"
             sx={{ display: { xs: "none", sm: "block" } }}
@@ -33,7 +34,7 @@ export const Navbar = () => {
         </StyledButton>
         <StyledButton onClick={() => navigate("/cart")}>
           <Badge badgeContent={getTotalCartItem()} color="secondary">
-            <ShoppingCartIcon color="white" />
+            <ShoppingCartIcon color="white" style={{ fontSize: 35 }}  />
           </Badge>
         </StyledButton>
       </StyledToolbar>

@@ -38,8 +38,10 @@ export const Cart = () => {
         })}
       {/* </Box> */}
       </Box>
-  ):(
-    <h1 style={{textAlign:'center',marginTop:'20px'}}>Your cart is empty</h1>
+  ):(<div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
+    <h1 style={{marginTop:'30px'}}>Your cart is empty</h1>
+    <button  className="checkout" onClick={() => navigate("/")} >Continue Shopping</button>
+    </div>
   )}
     
    

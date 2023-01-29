@@ -1,5 +1,5 @@
-import product1 from "./assets/products/1.png";
-import product2 from "./assets/products/2.png";
+import product1 from "./assets/products/1.jpeg";
+import product2 from "./assets/products/2.jpg";
 import product3 from "./assets/products/3.png";
 import product4 from "./assets/products/4.png";
 import product5 from "./assets/products/5.png";
@@ -13,7 +13,7 @@ import product11 from "./assets/products/11.jpeg";
 export const PRODUCTS = [
   {
     id: 1,
-    productName: "IPhone",
+    productName: "IPhone 11 Pro 64GB",
     price: 999.0,
     productImage: product1,
   },
